@@ -1,0 +1,265 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+body{
+    background-color: #062226;
+    font-size: 16px;
+}
+
+.ImgRicky img{
+   width: 1520px;
+   height: 500px;
+   margin: -40px auto;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+
+.CardMorty{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    gap: 3.5rem;
+    padding: 4rem;
+    place-items: center;
+   
+}
+
+
+.Card{
+    display: flex;
+    box-shadow: 2px 2px 8px rgb(19, 231, 51);
+    background-color: rgb(6, 145, 145);
+    width: 500px;
+    height: 200px;
+   
+}
+
+.Datos {
+    padding: 1rem;
+}
+
+.Datos p{
+    color: #282727;
+}
+.Datos .SpaceName{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+}
+
+.Space{
+    margin: 5px auto;
+}
+
+
+
+.Status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -320px;
+    bottom: 150px;
+    background-color: #062226;
+    color: white;
+    width: 150px;
+    height: 20px;
+    gap: 1rem;
+     
+    
+}
+
+
+.ConStatus{
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   border: 1px solid;
+}
+
+
+
+.imagen img{
+    width: 300px;
+    height: 200px;
+}
+.Inpunt{
+    display: grid;
+    place-items: center;
+    margin: 60px auto;
+}
+
+.Inpunt input{
+    width: 600px;
+    height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #9e9a9a;
+    color: rgb(6, 6, 45);
+    border-color: #9e9a9a;
+}
+.Inpunt input:hover{
+    background-color: white;
+}
+
+
+.Inpunt h1 {
+    margin: 30px auto;
+    color: white;
+}
+
+.Inpunt button {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 350px;
+    bottom: 42px;
+    background-color: rgb(83, 81, 81);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Inpunt button:hover {
+      background-color: black;
+      color: white;
+}
+.TiposContenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.TiposContenedor h2{
+     font-size: 20px;
+    
+}
+
+.TiposContenedor h2 span{
+    font-size: 25px;
+    color: #9e9a9a;
+    
+}
+
+
+
+.type{
+    
+    background-color: rgb(7, 84, 7);
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+/* Responsive  */
+
+
+@media ( max-width: 860px){
+
+    .ImgRicky img{
+        width: 900px;
+    }
+
+    .Inpunt input{
+        width: 400px;
+    }
+
+    .Inpunt button{
+        position: relative;
+        left: 250px;
+    }
+
+    .type{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        width: 700px;
+    }
+    .CardMorty{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width: 576px) {
+
+    
+    .ImgRicky img{
+        width: 600px;
+    }
+
+    .Inpunt input{
+        width: 200px;
+    }
+
+    .Inpunt button{
+        position: relative;
+        left: 140px;
+    }
+    
+    .type{
+        width: 400px;
+        height: 250px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .Card{
+        width: 450px;
+    }
+
+    .CardMorty{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+    
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
