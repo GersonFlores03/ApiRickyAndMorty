@@ -9,8 +9,7 @@ const Episode = ({AndMorty}) => {
         axios.get(AndMorty)
         .then(res=>seisEpisode(res.data))
     },[])
-    console.log(isEpisode)
-     
+    //console.log(isEpisode)
       return (
         <div>
             
