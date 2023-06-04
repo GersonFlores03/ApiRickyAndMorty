@@ -25,7 +25,7 @@ body {
 
 
     &__ImgRicky img {
-        width: 450px;
+      width: 100%;
     }
 
     &__Header {
@@ -74,7 +74,7 @@ body {
 
 
 .CardConteiner {
-
+    
 
     &__Card {
         display: flex;
@@ -84,12 +84,16 @@ body {
         gap: 2rem;
         background-color: $Card-Color;
         border: 2px solid $BorderSolid;
+        width: 100vw;
+       
     }
 
 
 
     &__img img {
-        width: 200px;
+        width: 150px;
+        border-radius: 8px;
+        padding-left: 1rem;
         height: 200px;
         object-fit: contain;
         color: white;
@@ -194,7 +198,17 @@ body {
             color: white;
         }
 
-
+        &__Card {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            object-fit: contain;
+            gap: 2rem;
+            background-color: $Card-Color;
+            border: 2px solid $BorderSolid;
+            width: 500px;
+           
+        }
 
     }
 
@@ -284,6 +298,19 @@ body {
             height: 200px;
             object-fit: contain;
             color: white;
+        }
+        
+
+        &__Card {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            object-fit: contain;
+            gap: 2rem;
+            background-color: $Card-Color;
+            border: 2px solid $BorderSolid;
+            width: 500px;
+           
         }
 
 
